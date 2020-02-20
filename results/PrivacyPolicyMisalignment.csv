@@ -1,0 +1,1557 @@
+﻿,APP,API invoked,Value 1,Value 2,Data type,Org text,Key words,Decision(Xueling),Xiaoyin,Rocky,Final Decision
+1,com.roidapp.photogrid,com.crashlytics.android.Crashlytics.setUserIdentifier,757601f43fe6cab0,,Android ID,"They collect:
+unique identifiers and other information related to device setting. We use the collected data to conduct research and development. We process information about the way you use and
+interact with our Services to: help us improve our Services; build new Services; and build
+customized features or Services. Such processing ensures your continued enjoyment of part
+or all of our Services.
+Designated Countries: Pursuant to the",tracking service without specifc tracker name;  use device identifier without specific info type(android id),abstract,abstract,abstract,no violation
+1,com.roidapp.photogrid,com.google.firebase.analytics.FirebaseAnalytics.setUserId,757601f43fe6cab0,,Android ID,,,,,,
+1,com.roidapp.photogrid,com.appsflyer.AppsFlyerLib.setAndroidIdData,757601f43fe6cab0,,Android ID,,,,,,
+2,com.bbm,com.google.firebase.analytics.FirebaseAnalytics.setUserProperty,device_serial,ZX1G22KHQK,serial number,,app has officially stopped operating,not available,not available,,not available
+3,com.zeptolab.ctr.ads,com.mixpanel.android.mpmetrics.MixpanelAPI.identify,757601f43fe6cab0,,Android ID,"4. How is my personal information used for analytics?
+
+As an online business, it is important for us to know how users interact with our Websites and Games
+We
+ and our Service Providers will collect your Location Information, Device Information, and Advertising IDs
+so that we can deliver our Game and Website services to our users, measure, analyze, and improve
+performance of the Games and Websites, and to continually update and develop our Games and Websites.","analytics service without tracker name, Device ID",abstract,abstract,abstract,no violation
+4,jp.naver.linecamera.android,com.tune.Tune.setAndroidId,757601f43fe6cab0,,android_id,,jp,not in english,not in english,not in english,not in english
+4,jp.naver.linecamera.android,com.tune.Tune.setDeviceId,3.55458E+14,,IMEI,,,,,,
+5,com.mrnumber.blocker,com.google.firebase.analytics.FirebaseAnalytics.setUserId,757601f43fe6cab0,,android_id,,not mention analytic service,violation,violation,violation,violation
+6,com.scoompa.voicechanger,com.flurry.android.FlurryAgent.setUserId,757601f43fe6cab0,,Android ID,"3rd Party services
+● The application sends anonymous usage data for analytics pupose to
+○ Google Analytics - Including Google Analytics Demographics and Interest
+Reporting. You can opt-out by going to Google Settings > Ads settings on your
+Android phone.
+○ Flurry.com - you can read their privacy policy and opt-out here .","tracker name, anonymous usage",violation,violation,violation,violation
+7,com.cootek.smartinputv5,com.appsflyer.AppsFlyerLib.setAndroidIdData,757601f43fe6cab0,,Android ID,"Information We Collect Automatically
+unique device identifiers
+
+We may share your information with third parties and service providers that provide
+products or services to us, that help us market or advertise to you (including co-branded
+marketing and advertising), or that provide products or services to you.
+We may allow others to serve advertisements on our behalf across the Internet and to provide
+analytics services. These entities may use cookies, web beacons and other technologies to collect
+information about your use of the Services and other websites, including your IP address, web
+browser, pages viewed, time spent on pages, links clicked and conversion information. This
+information may be used by us and others to, among other things, analyze and track data,
+determine the popularity of certain content, deliver advertising and content targeted to your
+interests on the Services and other websites and better understand your online activity.",analytic service withou tracker name;  unique device identifiers,abstract,abstract,abstract,no violation
+8,com.selfawaregames.acecasino,com.tune.Tune.setAndroidId,757601f43fe6cab0,,Android ID,"identifiers associated with the device
+We and our service providers may use this information to provide you with personalized advertising and other content, including advertising and content based on your location.
+
+We and our third party service providers use cookies and other technologies, such as mobile device identifiers, to enhance your experience with Big Fish Offerings. 
+
+Third Party Marketplaces and Service Providers:
+We may disclose your personal information as well as aggregate, anonymous information to third party business partners, marketplaces, and third parties who perform services for us, such as credit card processing, prize fulfillment, delivering packages, sending postal mail, collecting and analyzing data,","service provider without tracker name,uniqe device identifier",abstract,abstract,abstract,no violation
+9,com.gotv.crackle.handset,com.tune.Tune.setAndroidId,757601f43fe6cab0,,Android ID,"In--App Tracking Methods
+There are a variety of Tracking Technologies that may be included in mobile applications, and these are not
+browser-based like cookies and cannot be controlled by browser settings. Some use device identifier, or other
+identifiers such as ""Ad IDs"" to associate app user activity to a particular app and to track user activity across apps
+and/or devices.
+
+Service Providers, and/or Third-Party Services may also automatically collect certain information about you when
+you access or use the Service. Usage Information may include IP address, device identifier
+
+SPE may use Service Providers for analytics services such as, without limitation, Google Analytics.","analytics services such as, without limitation, Google Analytics.
+(not mention Tune)
+device identifier",abstract,abstract,abstract,no violation
+10,com.zeptolab.ctrexperiments.ads,com.mixpanel.android.mpmetrics.MixpanelAPI.identify,757601f43fe6cab0,,Android ID,"4. How is my personal information used for analytics?
+
+As an online business, it is important for us to know how users interact with our Websites and Games
+We
+ and our Service Providers will collect your Location Information, Device Information, and Advertising IDs
+so that we can deliver our Game and Website services to our users, measure, analyze, and improve
+performance of the Games and Websites, and to continually update and develop our Games and Websites.","analytics service without tracker name, Device ID",abstract,abstract,abstract,no violation
+11,com.nytimes.android,com.tune.Tune.setUserEmail,utsaresearch2018@gmail.com,,user email,"1. What Personal Information Do We Gather About You?
+email address
+
+2. What Do We Do With The Personal Information We Collect About You?
+B) Analysis and Development of New Products and Services. We perform statistical, demographic and marketing analyses of users of the NYT Services, and their subscribing and purchasing patterns, so we can analyze or predict our users’","analytics service without tracker name, email address",abstract,abstract,abstract,no violation
+12,com.gogii.textplus,com.crashlytics.android.Crashlytics.setUserName,UTSARESEARCH2018-1,,user name,"Standard Analytics Information. We may use, and disclose to third parties, certain aggregate or
+anonymous Usage Data regarding the Site and Services. Again, such information does not
+identify you individually.
+
+We may use and share with third parties, including advertisers, non-Personal Information you
+provide in using the Services, such as general demographic and location information that does
+not identify you personally.","analytic service without tracker name, non-Personal Information",violation,violation,violation,violation
+13,cz.aponia.bor3,com.crashlytics.android.Crashlytics.setUserIdentifier,757601f43fe6cab0,,Android ID,https://play.google.com/store/apps/details?id=cz.aponia.bor3.czsk&hl=en_US,,webpage error,error,error,error
+14,cn.wps.moffice_eng,com.appsflyer.AppsFlyerLib.setAndroidIdData,757601f43fe6cab0,,Android ID,"At the same time, our Services may include third-party tracking tools without limitation to
+individual cookies, APIs (application programming interface) and SDKs (software development kit)
+which belong to part of the third-party services providers on behalf of Kingsoft to collect and
+analyze technical data from you. Kingsoft or aforementioned third-party services providers on
+behalf of Kingsoft collect such data not to identify any specific individuality or personality of yours
+but to understand how you access and use the Services at general manner. Such data helps us
+provide the Services for you, learn how the Services are used, and make the Services more useful
+to you. The technical data collected by Kingsoft and the aforementioned third-party services
+providers may include:
+Your devices or software data, such as your Internet Protocol (“IP IP”) address, device identifier, region and language
+settings, network settings and status, operating system, device storage, Android ID and HDID, browser or other
+software used to connect our Services;
+Your operation data, such as the aggregate","tracking tool without specific name, Andoird ID",abstract,abstract,abstract,no violation
+15,com.taggedapp,com.crashlytics.android.Crashlytics.setUserName,utsaresearch2018@gmail.com,,user email,"III. Information We Collect
+Email Address And Phone Number
+
+IV. How We Use and Disclose the Information We Collect
+Bug fixes and product improvement. To find and fix technology
+problems. We send data to companies we do not own in order to
+analyze bugs in our websites and apps so that we can keep them
+running smoothly.","Bug fixes without tracker name, Email Address",abstract,abstract,abstract,no violation
+16,com.myfitnesspal.android,com.crashlytics.android.Crashlytics.setUserName,utsaresearch2018,,user name,"Information About Your Personal Data:
+Full name
+
+How We Disclose Personal Data:
+With certain companies for purposes of analytics and improvement of the Services.","analytics without tracker name, Full name",abstract,abstract,abstract,no violation
+17,es.socialpoint.DragonCity,com.appsflyer.AppsFlyerLib.setAndroidIdData,757601f43fe6cab0,,android_id,"Service Providers may collect, or we may share with them, includes your device type, IP address, MAC address or other device ID","marketing analytics
+service providers without tracker name, device ID",abstract,abstract,abstract,no violation
+18,ru.dublgis.dgismobile,com.appsflyer.AppsFlyerLib.setAndroidIdData,757601f43fe6cab0,,Android ID,,,not in english,,,not in english
+19,com.scoompa.collagemaker,com.flurry.android.FlurryAgent.setUserId,757601f43fe6cab0,,Android ID,"3rd Party services
+● The application sends anonymous usage data for analytics puposes to
+● Google Analytics - Including Google Analytics Demographics and Interest Reporting.
+You can opt-out by going to Google Settings > Ads settings on your Android phone.
+● Flurry.com - you can read their privacy policy and opt-out here .","flurry,  anonymous usage data",violation,violation,violation,violation
+20,com.arcsoft.perfect365,com.flurry.android.FlurryAgent.setUserId,didZX1G22KHQK,,variant_serial number,"This information may be used by itself, aggregated, or combined with mobile identifiers
+(such as IDFAs and Android IDs), and shared with other parties, for purposes related to
+advertising, attribution (e.g., measuring ad performance), analytics, and research.","analytics,  mobile identifiers",abstract,abstract,abstract,no violation
+21,com.scoompa.facechanger,com.flurry.android.FlurryAgent.setUserId,757601f43fe6cab0,,Android ID,"3rd Party services
+● The application sends anonymous usage data for analytics puposes to
+● Google Analytics - Including Google Analytics Demographics and Interest Reporting.
+You can opt-out by going to Google Settings > Ads settings on your Android phone.
+● Flurry.com - you can read their privacy policy and opt-out here .","flurry,  anonymous usage data",violation,violation,violation,violation
+22,mobi.ifunny,com.crashlytics.android.Crashlytics.setUserName,utsa,,user name,"We may also share your data with certain third parties to aid us in
+operating the iFunny website or mobile applications. For example, we
+may share your personal data with third parties, such as analytics
+providers, to utilize their software tools and measure the effectiveness of
+our advertisements. We may also share personal data, such as device
+IDs, with third party advertisers to help them determine whether they
+should serve an ad to you. The data that we share with these third parties
+does not include your email address, name, phone number, or username.","analytics providers, not include username",violation,violation,violation,violation
+23,com.scoompa.collagemaker.video,com.flurry.android.FlurryAgent.setUserId,757601f43fe6cab0,,android_id,"3rd Party services
+● The application sends anonymous usage data for analytics puposes to
+● Google Analytics - Including Google Analytics Demographics and Interest Reporting.
+You can opt-out by going to Google Settings > Ads settings on your Android phone.
+● Flurry.com - you can read their privacy policy and opt-out here .","flurry,  anonymous usage data",violation,violation,violation,violation
+24,com.tap4fun.galaxyempire2_android,com.appsflyer.AppsFlyerLib.setAndroidIdData,757601f43fe6cab0,,android_id,"Data we collect from our partners.
+Data for advertising and analytics purposes, so we can provide you a better Service
+Device ID, Device Information，Use：We use this information: • to improve our services, including the
+functionality of the Game; • for security and verification purposes; • identify and address bugs","analytics, Device ID",abstract,abstract,abstract,no violation
+25,com.viki.android,com.crashlytics.android.Crashlytics.setUserName,utsaresearch2018_223,,user name,"1.1 Information We collect directly from you
+a. Registration information
+When you create an account, you provide Us with certain Personal information, such as your full
+name, email address, and password (encrypted);
+
+
+We share your Personal Information with Our service providers that perform business services
+and/or operations on Our behalf. For example, We may partner with other companies to process
+secure payments, provide authentication services, fulfill orders, perform analytics,","analytic, full name",abstract,abstract,abstract,no violation
+26,air.com.sticksports.sticktennis,com.applovin.adview.AppLovinIncentivizedInterstitial.setUserIdentifier,757601f43fe6cab0,,Android ID,"We use both your personally identifiable information and certain non-personallyidentifiable
+information to improve the quality and design of the
+Stick Sports Sites and to create new features, promotions, functionality, and services by
+storing, tracking, and analysing User preferences and trends","tracking  and analysing,  personal info",abstract,abstract,abstract,abstract
+27,com.tap4fun.kings_empire,com.tune.Tune.setDeviceId,3.55458E+14,,IMEI,"Data we collect from our partners.
+Data for advertising and analytics purposes, so we can provide you a better Service
+Device ID, Device Information，Use：We use this information: • to improve our services, including the
+functionality of the Game; • for security and verification purposes; • identify and address bugs","analytics, Device ID",abstract,abstract,abstract,no violation
+27,com.tap4fun.kings_empire,com.tune.Tune.setAndroidId,757601f43fe6cab0,,android_id,,,,,,
+28,com.webascender.callerid,com.google.firebase.analytics.FirebaseAnalytics.setUserId,757601f43fe6cab0,,Android ID,"we may also process the following personal data relating to you:
+Mobile device ID (or other identifier as permitted by the manufacturer or created by Hiya)
+
+We and our third party service providers use cookies and similar technologies, including mobile application identifiers, to track information about your use of our Apps, help us recognize you across different Apps, improve your experience, increase security, measure use and effectiveness of our Apps, and serve advertising. We may combine this information with other personal information we collect from you, and our third party service providers may do so on our behalf.","tracking, device ID",abstract,abstract,abstract,no violation
+29,net.one97.paytm,com.appsflyer.AppsFlyerLib.setAndroidIdData,757601f43fe6cab0,,Android ID,"Personal Data we may collect from you are as under:
+information obtained from your mobile device by way of using our app like device location,
+communication information including contacts and call logs, device information (including
+storage, model, mobile network), transactional and promotional SMS/app notifications.
+We use your Personal Data in our business activities for providing our or our partners’
+products/services and to perform, among other actions, the following:
+2. to undertake research and analytics for offering or improving our products/services and their
+security and service quality","analytics, device information",abstract,abstract,abstract,abstract
+30,com.gameinsight.airport,com.appsflyer.AppsFlyerLib.setAndroidIdData,757601f43fe6cab0,,Android ID,"2. IINFORMATIION WE MAY COLLECT FROM YOU
+Android ID
+
+3.HOW WE USE YOUR IINFORMATIION
+3.1 The information we collect will only be used in connection with our provision of Services to you 
+and to comply with legal obligations.
+To process and analyze information to understand you, your preferences to enhance your
+experience and enjoyment using our Services.","analytics, android id",abstract,abstract,abstract,no violation
+31,com.handmark.expressweather,com.tune.Tune.setDeviceId,757601f43fe6cab0,,Android ID,"We may use tools or third party analytical software to collect and use certain user data which are not limited
+to: (i) mobile device identifiers, such","analytical software, mobile device identifiers",abstract,abstract,abstract,no violation
+31,com.handmark.expressweather,com.tune.Tune.setAndroidId,757601f43fe6cab0,,Android ID,,,,,,
+32,com.enflick.android.TextNow,com.leanplum.Leanplum.setUserAttributes,utsaresearch2018,,User name,"What Information do We Collect? 
+name
+Cookies and Analytical Tracking: Sometimes we use cookie technology, web beacons and other similar
+devices on our Websites and our software to enhance functionality and navigation, and portions of our
+Websites and our software may use statistical tools that may be operated by third party providers (collectively,
+the “Analytical Tools”).
+
+3. We provide the information we collect to third parties, such as advertisers, in","Analytical Tools, name",adstract,adstract,adstract,no violation
+32,com.enflick.android.TextNow,com.leanplum.Leanplum.setUserId,utsaresearch2018,,User name,,,,,,
+33,com.pacificinteractive.HouseOfFun,com.appsflyer.AppsFlyerLib.setAndroidIdData,757601f43fe6cab0,,Android ID,"We may also employ third
+party ad-serving and/or analytics technologies that use various methods to collect information through the
+Software and the Service. These technologies may be embedded within the Software and the Service and may
+collect demographic and location information as well as information from your device including but not limited
+to IP address, device UDID,","analytics technologie, Device UDID",abstract,abstract,abstract,no violation
+34,com.texty.sms,com.crashlytics.android.Crashlytics.setUserIdentifier,757601f43fe6cab0,,android_id,"1. Information We Collect:
+verified email address, unique device
+identifiers
+
+We use analytics services like Google Analytics, KissMetrics, and Intercom
+
+We use and process the information we collect through your use of the Services to:
+
+Analyze trends and traffic, track premium upgrades, and track usage data;","track usage data,  email address, unique device
+identifiers,",abstract,abstract,abstract,no violation
+34,com.texty.sms,com.crashlytics.android.Crashlytics.setUserEmail,utsaresearch2018@gmail.com,,user email,,,,,,
+34,com.texty.sms,com.crashlytics.android.Crashlytics.setUserIdentifier,757601f43fe6cab0,,Android ID,,,,,,
+35,com.buzzpia.aqua.launcher,com.crashlytics.android.Crashlytics.setUserIdentifier,757601f43fe6cab0,,android_id,,app no longer exists in google Play,not available,,,not available
+35,com.buzzpia.aqua.launcher,com.crashlytics.android.Crashlytics.setUserIdentifier,757601f43fe6cab0,,Android ID,,,,,,
+36,com.camshare.camfrog.android,com.crashlytics.android.Crashlytics.setUserName,utsarsearch,,user name,"We may share anonymized usage data which does not identify you specifically with third parties.
+
+We may use Tracking Technologies to deliver content, including ads, relevant to your interests on the
+Services and third party sites based on how you interact with our advertisements or content, and to
+track the content you access.","Tracking Technologies, anonymized usage data",violation,violation,violation,violation
+37,com.datpiff.mobile,com.google.firebase.analytics.FirebaseAnalytics.setUserProperty,username,utsaresearch,user name,"We do not provide this information to ANYONE outside of our organization without a legal request.
+
+We also allow third-party companies to serve ads and/or collect certain anonymous information when you visit
+our web site. These companies may use non-personally identifiable information","Third-party,  anonymous",violation,violation,violation,violation
+38,com.tfd.mobile.TfdSearch,com.flurry.android.FlurryAgent.setUserId,utsaresearch__GYXnbw_sSAnfLAq83rz4RYe43ES_62bT__2785527__ //en/1547760362704/1/0/GooglePlay Android/iTFD8.0.4/Nexus 6/7.1.1/1440/2392,,variant_username,"Types of Data Collected
+Personal Data
+First name and last name
+
+Service Providers
+We may employ third party companies and individuals to facilitate our Service (""Service Providers""), to provide the Service
+on our behalf, to perform Service-related services or to assist us in analyzing how our Service is used.
+These third parties have access to your Personal Data only to perform these tasks on our behalf and are obligated not to
+disclose or use it for any other purpose.
+
+We may use third-party Service Providers to monitor and analyze the use of our Service.
+
+We may use third-party Service Providers to show advertisements to you to help support and maintain our Service. These companies may use information about your interests in order to provide advertisements about goods and services of interest to you
+Flurry
+Flurry is provided by Yahoo! Developer Network, an Oath Brand.","Analytics, flurry",no violation,no violation,no violation,no violation
+39,com.quoord.tapatalkpro.activity,com.flurry.android.FlurryAgent.setUserId,utsaresearch2018,,user name,"We may collect and combine information when you interact with the Service, including:
+user name,
+
+HOW WE USE THE IINFORMATIION COLLECTED:
+Such information may be used by itself, aggregated, or combined with other information from third
+parties.
+
+IINFORMATIION OUR VENDORS AND OTHER THIIRD PARTIIES COLLECT
+● Anallyttiicss Serrviice Prroviiderrss
+We may allow certain third party analytics service providers to collect the anonymous data received from cookies, web beacons, tags, pixels, and devices on our behalf, and to retain and use this data themselves.
+● Advertrtiissementtss;; Ad Nettworrkss;; Ottherr Thiirrd Partrtiiess
+We may allow certain third party companies to serve advertisements to you and collect
+anonymous information regarding your use of the Service.
+In addition, we or our data partner(s) may collect and store a unique identifier matched to
+your mobile device, in order to deliver customized ads or content while you use the Service or
+other websites or applications, or to seek to identify you in a unique manner across other
+devices or browsers. In order to customize these ads or content, we or our data partner(s) may
+ connect de-identified demographic or other data about you (received from third parties)
+either to data you voluntarily submitted to us (such as your email address)","analytic service, user name",abstract,abstract,,no violation
+40,com.plantpurple.emojidom,com.crashlytics.android.Crashlytics.setUserEmail,utsaresearch2018@gmail.com,,user email,"Only aggregated, anonymized data is periodically transmitted to the analytics tools","analytics tools, aggregated, anonymized data",violation,violation,violation,violation
+41,com.zeptolab.monsters.free.google,com.mixpanel.android.mpmetrics.MixpanelAPI.identify,757601f43fe6cab0,,Android ID,"4. How is my personal information used for analytics?
+As an online business, it is important for us to know how users interact with our Websites and Games
+We  and our Service Providers will collect your Location Information, Device Information, and Advertising IDs so that we can deliver our Game and Website services to our users, measure, analyze, and improve performance of the Games and Websites, and to continually update and develop our Games and Websites.","analytics service without tracker name, Device ID",abstract,abstract,,no violation
+42,com.godgame.mj.android,com.appsflyer.AppsFlyerLib.setAndroidIdData,757601f43fe6cab0,,Android ID,,,not in english,,,not in english
+43,com.priceline.android.negotiator,com.crashlytics.android.Crashlytics.setUserIdentifier,757601f43fe6cab0,,android_id,"We also use third-party analytics cookies to gain insight into how our visitors use the site
+and optimize and improve our site.
+
+Mobile Devices
+We and/or our data providers may collect and store a unique identifier matched to your mobile device in order to
+deliver customized ads or content while you use applications or surf the internet, or to identify you in a unique
+manner across other devices or browsers. In order to customize these ads or content, we or a data partner may
+collect demographic or other data, with identifying elements removed, about you received from third parties, as well
+as data you voluntarily have submitted to us (e.g., your email address) and/or data passively collected from you,
+such as your device identifier","third-party analytics, device identifier",abstract,abstract,,no violation
+44,com.ttech.android.onlineislem,com.crashlytics.android.Crashlytics.setUserIdentifier,757601f43fe6cab0,,Android ID,,,not in english,,,not in english
+45,com.flayvr.flayvr,com.crashlytics.android.Crashlytics.setUserIdentifier,355458061189396-757601f43fe6cab0,,variant_IMEI+Android ID,"We may collect information about the computer or device you are using, our products and services running on it, and, depending on the type of device it is, what operating systems you are using, device settings, application identifiers (AI), hardware identifiers or universally unique identifiers (UUID), software identifiers, IP Address, location data, cookie IDs, and crash data (through the use of either our own analytical tools or tolls provided by third parties, such as Crashlytics or Firebase).
+
+ Personal data refers to any information relating to an identified or identifiable natural person (“data subject”), where this identification can be made directly or indirectly, by means of identifiers such as your name, identification number, email address, phone number, online identifiers such as cookies in some circumstances, your location, your genetic, economic, cultural or social identity or other information that is specific to you.
+
+· Third party analytics – when we share your data with a third party for analytics, such as purchase optimization, crash reporting, and trend analytics. Note, all free users and paid customers can choose to turn of this feature.","Crashlytics, hardware identifiers",no violation,no violation,,no violation
+46,se.footballaddicts.livescore,com.google.firebase.analytics.FirebaseAnalytics.setUserProperty,user_id,757601f43fe6cab0,Android ID,"When you use our services, i.e. download and use our apps, such as “Forza Football”, “Forza Reporter” and “Forza Academy (“Services” ), we use tools or third party analytical
+software to automatically collect non-personal data about you and your use of our Services. Such non-personal data is information that is aggregated and de-personalized and
+which cannot be used to identify you. We collect this information by using advertiser ID, which is a technology that differentiates smartphones and other devices from each other
+through a unique number","analytical software, aggregated and de-personalized, advertiser ID",violation,violation,violation,violation
+47,org.medhelp.mydiet,com.mixpanel.android.mpmetrics.MixpanelAPI.identify,757601f43fe6cab0,,Android ID,"""When you download, install, and use the App on your mobile phone or other device, you agree to permit the App to automatically gather certain Information,
+including without limitation, advertiser IDs, carrier providers, a unique  device identifier,
+
+to improve the StayWell Services, we collect how, when, and which parts of the StayWell Services or its features you use. Also, we may use your IP Address, media access control address (MAC Address), or other unique identifiers to assist us in collecting and analyzing this data.
+
+We may also disclose your Personal Information and/or Personal Health Information, to the companies, agents, contractors, service providers, or others engaged to perform functions on our behalf (such as processing of payments,
+provision of data storage, hosting of our website, conducting audits, and performing web analytics).
+
+Aggregated data. We may combine your Information with Information collected from other participants to create anonymous aggregated data reports that may be disclosed to your Plan, your Employer and other third parties. StayWell may also use your Information as part of group statistical research and analysis to improve StayWell’s Services, as long
+as no Information that could be used to contact or identify you is disclosed
+to any unauthorized parties.""  analytics, unique 
+device identifier  abstract","analytics, unique device identifier",abstract,abstract,,no violation
+48,com.televisa.deportes.android,com.flurry.android.FlurryAgent.setUserId,757601f43fe6cab0,,Android ID,,,not available,,,not available
+49,com.kroger.mobile,com.crashlytics.android.Crashlytics.setUserIdentifier,757601f43fe6cab0,,Android ID,"When you visit our websites, access our mobile apps or open one of our emails, we may automatically
+collect information about you using tracking technology, including:
+Internet Protocol address
+Unique device or user ID","tracking technology, unique devicen ID",abstract,abstract,,no violation
+50,com.bookmark.money,com.crashlytics.android.Crashlytics.setUserEmail,utsaresearch2018@gmail.com,,user email,"Sharing your personal information
+We do not sell, trade, or rent Users personal identification information to others. We may share generic aggregated demographic information not linked to any personal identification information regarding visitors and users with our business partners, trusted affiliates and advertisers for the purposes outlined above.We may use third party service providers to help us operate our business and the Site or administer activities on our behalf, such as sending out newsletters or surveys. We may share your information with these third parties for those limited purposes provided that you have given us your permission.",,violation,violation,violation,violation
+51,com.ember.stainz,com.tune.Tune.setAndroidId,757601f43fe6cab0,,Android ID,"We will only share your information (including personal data) with the third parties listed on Exhibit A (as updated from time to time).
+
+We may share your information with our employees, the third party companies that perform services on our behalf described on Exhibit A, as amended from time to time, including payment processing, order fulfillment, data analysis, marketing services
+
+We may use and share with third party advertisers (and other third parties) certain Technical Information (which may include personal data) and/or anonymized information to show general demographic and preference information among Ember users.
+
+Exhibit A:
+IronSource Crahlytics GameAnalytics ApssFlyer Google Analytics","Tune is not in their Exhibit A list, but they also mentioned they may share data to third party advertisers (and other third parties).  
+Description of Tune from appBrain: Attribution analytics to measure the value of advertising partners.",no violation,no violation,no violation,no violation
+52,com.holosfind.showroom,com.tune.Tune.setUserEmail,utsaresearch2018@gmail.com,,user email,"2. What Data we collect
+- email address;
+5. Who may receive your Personal Data
+- The service providers who deliver our advertising, marketing and sales campaigns;","service providers, email address",abstract,abstract,,no violation
+52,com.holosfind.showroom,com.tune.Tune.setUserName,Utsa Research,,user name,,,,,,
+53,com.spuul.android,com.crashlytics.android.Crashlytics.setUserEmail,757601f43fe6cab0,,android_id,"1.4 We shall collect the following Computer Data
+o) other hardware and software information
+This computer data is collected for analysis and evaluation in order to help us
+improve our Digital Properties and the services we provide.
+
+2.1 The personal data we collect from you will be used, or shared with third
+parties (including related companies and third party service providers), for some
+or all of the following purposes:
+2.1.2 to track your activity on our Digital Platforms","analysis,  other hardware and software information",abstract,abstract,,abstract
+53,com.spuul.android,com.crashlytics.android.Crashlytics.setUserIdentifier,757601f43fe6cab0,,android_id,,,,,,
+54,com.mobikwik_new,com.tune.Tune.setAndroidId,757601f43fe6cab0,,android_id,"We may use third party website analytics services in connection with the Website. These website analytics services do not collect information that you do not voluntarily enter into the Website. services do not track your browsing habits across websites which do not use their services. We are using the information collected from these services to find usability problems to make the Website
+easier to use. The recordings will never identify you or your account.
+
+2. We also use Information in aggregate form (so that no individual user is identified):
+1. To build up marketing profiles;
+
+In addition, our business partners may use Cookies to provide us with anonymous data and information regarding the use of our Website.
+
+our business partners may collect other non-personally identifying information, such as the computer's IP address, type of operating system, type of internet browsing software,
+what web pages were viewed at what time, the geographic location of your internet service provider and demographic information, such as gender and age range.","analytics service, never identify you",violation,violation,violation,violation
+55,com.thehomedepot,com.google.firebase.analytics.FirebaseAnalytics.setUserProperty,DeviceId,757601f43fe6cab0,android_id,"Tracking Tools We Use
+We collect personal and other information about users over time and across different websites and devices. when you
+use this website or service. We also have third parties that collect personal information this way.","Tracking Tools, personal and other information",abstract,abstract,,abstract
+55,com.thehomedepot,com.google.firebase.analytics.FirebaseAnalytics.setUserId,757601f43fe6cab0,,Android ID,,,,,,
+55,com.thehomedepot,com.crashlytics.android.Crashlytics.setUserIdentifier,757601f43fe6cab0,,Android ID,,,,,,
+56,com.froogloid.kring.google.zxing.client.android,com.crashlytics.android.Crashlytics.setUserIdentifier,757601f43fe6cab0,,Android ID,"a. Personally Identifiable Information.
+email address
+b. Non-Personally Identifiable Information.
+This type of information may include things like how long it took a user to download a page,
+debugging/crash data
+
+We use Non-Personally Identifiable Information to troubleshoot,
+
+You or We may share your Personally Identifiable Information with such Service Providers to fulfill orders, move data in or out of the Key Ring Service, analyze data, provide marketing assistance, provide search results and links, operate the  Website and the Key Ring Service, troubleshoot.","crash data, Non-Personally Identifiable Information.
+analyze data, Personally Identifiable Information",Violation,violation,Violation,Violation
+56,com.froogloid.kring.google.zxing.client.android,com.crashlytics.android.Crashlytics.setUserName,utsaresearch2018@gmail.com,,user email,,,,violation,Violation,
+56,com.froogloid.kring.google.zxing.client.android,com.flurry.android.FlurryAgent.setUserId,757601f43fe6cab0,,Android ID,,,,no violation,no violation,
+56,com.froogloid.kring.google.zxing.client.android,com.google.firebase.analytics.FirebaseAnalytics.setUserId,757601f43fe6cab0,,Android ID,,,,no violation,no violation,
+56,com.froogloid.kring.google.zxing.client.android,com.google.firebase.analytics.FirebaseAnalytics.setUserProperty,androidId,757601f43fe6cab0,Android ID,,,,no violation,no violation,
+56,com.froogloid.kring.google.zxing.client.android,com.google.firebase.analytics.FirebaseAnalytics.setUserProperty,deviceIdentifier,757601f43fe6cab0,Android ID,,,,no violation,no violation,
+57,com.makemytrip,com.tune.Tune.setAndroidId,757601f43fe6cab0,,Android ID,,no term about analytic service,violation,violation,violation,Violation
+57,com.makemytrip,com.crashlytics.android.Crashlytics.setUserName,1_757601f43fe6cab0_google Nexus 6_230_7.1.1,,variant_Android ID,,,,,,
+58,com.activaweb.matchendirect,com.appsflyer.AppsFlyerLib.setAndroidIdData,757601f43fe6cab0,,android_id,,,not english,,,not english
+59,com.boyaa.fben,com.appsflyer.AppsFlyerLib.setAndroidIdData,757601f43fe6cab0,,Android ID,"We and service providers acting on our behalf, like Google Analytics, store log files and use tracking
+technologies such as:
+We and our service providers use these log files, tags, and tracking technologies to collect and analyze
+certain kinds of technical information, including:
+your mobile device's identifiers, like your MAC Address, Identifier For Advertising (IDFA), and/or
+International Mobile Equipment Identity (IMEI);
+
+We will share your information with third-party companies to perform services on our behalf, like processing
+payments, analyzing data, optimizing game play, e-mail delivery, hosting services, customer service and to
+help us in our marketing efforts, including managing and delivering contextual and tailored advertisements.","service providers, mobile device's identifiers",abstract,abstract,,no violation
+60,com.tgb.kingkong,com.flurry.android.FlurryAgent.setUserId,3.55E+14,,IMEI,,not in googlePlay,not available,,,not available
+61,com.cleartrip.android,com.google.firebase.analytics.FirebaseAnalytics.setUserProperty,Email,utsaresearch2018@gmail.com,user email,"Certain tracking technologies
+enable us to assign a unique identifier to you,
+
+We may disclose your User Information to third party Processors (such as analytic providers; data centers; etc.), located anywhere in the world,
+subject to the requirements noted below in this Section 9;
+
+9.5 We may share your User Information with our partners such as your name, email, or other identifier. Our
+partners may also: (i) collect information directly from your device, such as your IP address, device ID,
+advertising ID, and information about your browser or operating system; (ii) combine User Information
+about you received from Cleartrip with information about you from other sites or services","tracking technologies, email",abstract,abstract,,no violation
+62,uk.co.ee.myee,com.crashlytics.android.Crashlytics.setUserIdentifier,757601f43fe6cab0,,Android ID,"We’ll use your personal information to create aggregated and anonymised information. Nobody can identify you from that information and we’ll use it to:
+run management and corporate reporting, research and analytics, and to improve the business; 
+
+Who do we share your personal information with, why and how?
+We use other providers to carry out services on our behalf or to help us provide services to you. We also use them to:
+analyse and improve the information we hold (including about your interactions with our service);",,abstract,abstract,,abstract
+63,com.ancestry.android.apps.ancestry,com.crashlytics.android.Crashlytics.setUserName,UTSA Research,,user name,"Initially, Ancestry collects basic information from you to create your account(s), including name
+
+we share information as described in our Privacy Statements, such as with our affiliated companies, other users, our service providers,
+
+Ancestry primarily uses information about you to provide, personalize, improve, update and expand and improve our services to you. For example detecting and protecting against error, fraud, or other criminal or malicious activity as well as facilitating product development
+
+we share information as described in our Privacy Statements, such as with our affiliated companies, other users, our service providers","service providers, name",abstract,abstract,abstract,no violation
+64,com.surfeasy,com.mixpanel.android.mpmetrics.MixpanelAPI.identify,utsaresearch2018@gmail.com,,user email,"4. Analytics technology, such as Google Analytics, is used to improve the service, design, and app
+experience.","Analytics technology, no term about email information",violation,violation,not sure,violation
+65,com.mcu.iVMS,com.flurry.android.FlurryAgent.setUserId,ZX1G22KHQK,,serial number,"We also use cookies and other technologies to keep records, store your preferences, improve our advertising, and collect certain non-identifying information, like such as log data and device data.","technologies to keep records,  device data",abstract,abstract,,abstract
+66,com.alawar.treasuresofmontezuma3,com.flurry.android.FlurryAgent.setUserId,UID:355458061189396757601f43fe6cab0,,variant_IMEI+android_id,"Online Tracking Technologies
+When you use the Website, Alawar or third parties authorized by Alawar that provide content, advertising, or other functionality on our Website, may use cookies, pixel tags, local storage, mobile  device identifiers and other technologies
+
+Analytics Cookies. 
+We use third-party analytics providers, including, but not limited to,
+Google Analytics, Google Optimize, Doubleclick and Yandex.Metrica (collectively “Third
+Party Analytics Providers”).
+
+These parties are contractually prohibited from processing Personal information
+for any purpose other than for performing legitimate contractual obligations or to comply with
+applicable legal requirements.","Online Tracking Technologies
+, mobile device identifiers",abstract,abstract,,no violation
+67,fr.snapp.fidme,com.crashlytics.android.Crashlytics.setUserEmail,utsaresearch2018@gmail.com,,user email,"What methods are used to process the personal details collected to enable the User to receive targeted sales/promotional offers issued by Partner Agencies within Third-Party Applications?
+
+With the User’s consent, SNAPP’ as data controller, may be required to collect and share geolocation data and/or the advertising ID from the User’s Mobile Device to its Technological Partners (“IDFA” on iOS,
+“Advertising ID” or ‘”Wi-Fi MAC address” on Android) interests. This data is also used in a anonymous and aggregated form.","currently not available, using old version
+
+anonymous and aggregated form.",violation,violation,violation,violation
+67,fr.snapp.fidme,com.google.firebase.analytics.FirebaseAnalytics.setUserProperty,email,utsaresearch2018@gmail.com,user email,,,,,,
+68,com.yidio.androidapp,com.crashlytics.android.Crashlytics.setUserEmail,utsaresearch2018@gmail.com,,user email,Your Yidio information will not be shared with third parties unless it is necessary to fulfill a request,"third party, not share",violation,violation,violation,violation
+69,com.application.zomato,com.crashlytics.android.Crashlytics.setUserName,Utsa Research,,user name,"The information we collect on or through our Services may include:
+
+Your account information: Your full name,
+
+How we use the information we collect
+Administer our Services and diagnose technical problems.","diagnose technical problems, full name",abstract,abstract,,no violation
+70,com.avector.itw.itwmj16hd,com.applovin.adview.AppLovinIncentivizedInterstitial.setUserIdentifier,757601f43fe6cab0@757601f43fe6cab0_0_2_uaNPvDatbzuo7QvCBudQ9kSXRv96Oob9liKtGLb39vEd76pkyo7spfkv5  dZv,,variant_Android ID,,,not in english,,,not in english
+71,com.xyrality.lkclient,com.tune.Tune.setAndroidId,757601f43fe6cab0,,Android ID,"We only pass on personal data to collaborating companies or external service providers if the latter is stipulated by law or legitimate, in particular in order to fulfil the contract, process payment or protect other users, or to fend off any
+ risks to state and public security or prosecute criminal offences.
+ 
+Performance cookies. Performance cookies are sometimes also called analytical cookies (Analytics Cookies), and gather information about your use of the services, enabling us to improve the functioning of the services.
+ 
+ Targeting and advertising cookies. We and our service providers may deploy targeting or advertising cookies to show you advertisements that are better adapted to your interests and preferences.","service providers, personal inforamtion",abstract,abstract,,abstract
+72,com.kokteyl.goal,com.appsflyer.AppsFlyerLib.setAndroidIdData,757601f43fe6cab0,,android_id,"We collect the following User Information in accordance with applicable law:
+device IDs or unique identifiers,
+
+More specifically, we will use the User Information to do one or more of the following things:
+n. understand user trends and patterns; and
+o. develop aggregate analysis in respect of our users and business intelligence that enable us to operate, protect, make informed
+decisions and report on the performance of our business.
+
+Analytics cookies - We may use third party analytics services such as Google Analytics and others. 
+
+We may also share User Information with selected third parties including:
+analytics and search engine providers that assist us in the improvement and optimisation of the platforms.","analytics services, device IDs",abstract,abstract,,no violation
+73,com.wanelo.android,com.crashlytics.android.Crashlytics.setUserName,utsaresearch,,user name,"3.1. Types of Personal Information We Collect:
+user name.
+
+We Use Vendors and Service Providers. We employ service providers to perform tasks on our behalf and need to share your information with them so we can provide products or Services to you. The types of service providers (processors) to whom we entrust Personal Information include service
+providers for: (i) provision of IT and related services;","service providers , user name",abstract,abstract,,no violation
+74,com.yemenfon.mersal,com.google.firebase.analytics.FirebaseAnalytics.setUserProperty,dev_id,757601f43fe6cab0,Android ID,"B. Non-Personal Information - 
+We also collect aggregate, non-personally identifiable information about you and your use of the Application, as described
+in more detail below, including by using ""cookies,"" web beacons, local shared objects, or other types of tracking technology.
+
+B. How We Use Your Non-Personal Information - 
+Non-Personal Information collected from you is used for various purposes, such as:
+
+4. To analyze trends, track user movement and gather statistical information for aggregate use;","tracking technology, aggregate, non-personally identifiable information",violation,violation,violation,violation
+75,air.com.rosettastone.mobile.CoursePlayer,com.crashlytics.android.Crashlytics.setUserName,utsaresearch2018@gmail.com,,user email,"The elements of your Data that we collect may include: 
+ E-mail address
+
+We use your Data for purposes which may include: 
+Resolving disputes, collecting fees, and troubleshooting problems. 
+
+We do not share this information with outside parties except 1. To the extent necessary to complete that order or to provide services where the outside party is acting on our behalf and has no independent right to use the information we provide (e.g., third-party shipping, business analytics, or customer support ),","troubleshooting problems,  customer support,  E-mail address",abstract (not sure whether  troubleshooting problems includes crash analysis),abstract,abstract,no violation
+76,air.com.coalaa.itexasth,com.appsflyer.AppsFlyerLib.setAndroidIdData,757601f43fe6cab0,,android_id,,no terms about third party or service provider,violation,violation,violation,violation
+77,com.e8tracks,com.crashlytics.android.Crashlytics.setUserName,utsa research,,user name,"The Information 8tracks 
+ You may provide to 8tracks what is generally called ""personally
+identifiable"" information (such as your name)
+
+We may disclose some limited User information to affiliated companies or other businesses or persons
+to: provide website hosting, maintenance, and security services;","maintenance,  User information",abstract,abstract,,abstract
+77,com.e8tracks,com.crashlytics.android.Crashlytics.setUserIdentifier,utsa research,,user name,,,,,,
+78,com.gingersoftware.android.keyboard,com.appsflyer.AppsFlyerLib.setCustomerUserId,757601f4-3fe6-cab0-9702-7e324b79ba35,,variant_android_id,"We may use a third party SDK that has access and uses your advertising identifier and/or IDFA, as applicable, to display advertisements or content from third parties to you.
+
+statistical and analytical purposes to enable us to improve and enhance the Software and the Services. This
+data and information includes compilations of various writing errors but is not associated with particular
+users.","no term about analytics,  using Ads ID for advertisements",violation,violation,violation,violation
+79,com.myntra.android,com.crashlytics.android.Crashlytics.setUserEmail,utsaresearch2018@gmail.com,,user email,"When you use our Platform, we also process technical data such as your IP-address, Device ID, Device Contacts, Device Accounts including third-party accounts or MAC-address, and information about the manufacturer, model, and operating system of your mobile device. We use this data to enable us to deliver the functionalities of the Platform, resolve technical difficulties","resolve technical difficulties, Device ID",violation,violation,violation,violation
+79,com.myntra.android,com.crashlytics.android.Crashlytics.setUserName,UTSA,,user name,,,,,,
+80,br.com.mobits.peixeurbano,com.appsflyer.AppsFlyerLib.setAndroidIdData,757601f43fe6cab0,,android_id,,,not in english,,,not in english
+81,com.touchnote.android,com.crashlytics.android.Crashlytics.setUserEmail,utsaresearch2018@gmail.com,,user email,"We will collect and process the following data about you:
+Information you give us. This is information about you that you give us by filling in forms on
+our Platform or by corresponding with us by phone, e-mail, information you provide when you register to use our Platform, your login information 
+
+We use information held about you in the following ways: to administer our Platform and for internal operations, including troubleshooting, data analysis, testing, research, statistical and survey purposes;","troubleshooting, data analysis, e mail",abstract,abstract,,no violation
+82,com.alawar.mysteryisland,com.flurry.android.FlurryAgent.setUserId,UID:355458061189396757601f43fe6cab0,,variant_IMEI,"Online Tracking Technologies
+When you use the Website, Alawar or third parties authorized by Alawar that provide content, advertising, or other functionality on our Website, may use cookies, pixel tags, local storage, mobile  device identifiers and other technologies
+
+Analytics Cookies. 
+We use third-party analytics providers, including, but not limited to,
+Google Analytics, Google Optimize, Doubleclick and Yandex.Metrica (collectively “Third
+Party Analytics Providers”).
+
+These parties are contractually prohibited from processing Personal information
+for any purpose other than for performing legitimate contractual obligations or to comply with
+applicable legal requirements.","Online Tracking Technologies
+, mobile device identifiers",abstract,abstract,,no violation
+83,com.freerange360.mpp.GOAL,com.appsflyer.AppsFlyerLib.setAndroidIdData,757601f43fe6cab0,,android_id,"2. What data we collect
+We collect the following User Information in accordance with applicable law:
+device IDs or unique identifiers, location data,
+
+
+More specifically, we will use the User Information to do one or more of the following things:
+n. understand user trends and patterns; and
+o. develop aggregate analysis in respect of our users and business intelligence that enable us to operate, protect, make informed
+decisions and report on the performance of our business.
+
+
+We may use third party analytics services such as Google Analytics and others. Your IP address and other
+information will be collected by automated means to evaluate your use of the website, compile reports on website activity,
+identify user patterns and provide related services.
+
+We may also share User Information with selected third parties including:
+analytics and search engine providers that assist us in the improvement and optimisation of the platforms.","third party analytics services, device IDs",abstract,abstract,,no violation
+84,com.gameinsight.tribez,com.appsflyer.AppsFlyerLib.setAndroidIdData,757601f43fe6cab0,,android_id,"2. IINFORMATIION WE MAY COLLECT FROM YOU
+Android ID
+
+3.HOW WE USE YOUR IINFORMATIION
+3.1 The information we collect will only be used in connection with our provision of Services to you  and to comply with legal obligations. To process and analyze information to understand you, your preferences to enhance your experience and enjoyment using our Services.","analytics, android id",abstract,abstract,,no violation
+85,com.oni.oni,com.google.firebase.analytics.FirebaseAnalytics.setUserId,757601f43fe6cab0,,android_id,,,not in english,,,not in english
+85,com.oni.oni,com.appsflyer.AppsFlyerLib.setAndroidIdData,757601f43fe6cab0,,android_id,,,,,,
+86,com.nousguide.android.rbtv,com.google.android.gms.analytics.Tracker.setClientId,757601f43fe6cab0,,android_id,"Information we collect automatically
+ unique device identifiers
+
+5 How we share and disclose your information
+(c) share your personal data with and access information from analytics and search engine
+providers that assist us in the improvement and optimisation of the Website and Apps for
+better personalisation of content and advertising.
+
+For our Apps, we collect information automatically through the use of unique device
+identifiers (""IDs""). An ID is a specific string of numbers and letters (a ""character string"") which is
+assigned to your device, but does not name you.
+
+
+Analytics Cookies.
+These cookies collect information that is used, either in aggregate form to help us understand how Red Bull Sites are being used or how effective our marketing campaigns are, or to help us customize Red Bull Sites for you. 
+
+Google Analytics","Analytics Cookies., Google Analytics",no violation,no violation,,no violation
+87,com.wevideo.mobile.android,com.crashlytics.android.Crashlytics.setUserIdentifier,utsaresearch2018@gmail.com : 1277066070,,user email,"When you create a WeVideo Account, you provide us with personal information that includes your
+name and, when not using single sign-on, an email address 
+We also use your information to ensure our services are working as intended, such as tracking
+outages or troubleshooting issues that you report to us. 
+
+When you have issues or problems using our services, and you ask us to help troubleshoot those
+issues you report, we will analyze crash reports and usage characteristics of your account to help
+provide you with the best support.","crash reports, email",abstract,abstract,,no violation
+87,com.wevideo.mobile.android,com.crashlytics.android.Crashlytics.setUserName,UTSA Research,,user name,,,,,,
+87,com.wevideo.mobile.android,com.crashlytics.android.Crashlytics.setUserEmail,utsaresearch2018@gmail.com,,user email,,,,,,
+88,in.redbus.android,com.google.firebase.analytics.FirebaseAnalytics.setUserProperty,device_id,757601f43fe6cab0,android_id,"1. PERMISSIONS REQUIRED FOR USING OUR MOBILE APPLICATIONS
+When the redBus app is installed on your phone or tablet, a list of permissions appear and are needed for the app to function effectively.
+There is no option to customize the list. The permissions that redBus requires and the data that shall be accessed and its use is as below:
+
+9. Device ID and Call information:This permission is used to detect your Android ID through which we can uniquely identify users. It
+also lets us know your contact details using which we pre-populate specific fields to ensure a seamless booking experience.
+
+redBus may share your Personal Information to third party that redBus may engage to perform certain tasks on its behalf, including but not
+limited to payment processing, data hosting, and data processing platforms.
+We use non-identifiable Personal Information of Users in aggregate or anonymized form to build higher quality, more useful online services
+by performing statistical analysis of the collective characteristics and behavior of our customers and visitors, and by measuring
+demographics and interests regarding specific areas of the Website. 
+
+
+Occasionally, redBus will hire a third party for market research, surveys etc. and will provide information to these third parties specifically for
+use in connection with these projects. The information (including aggregate cookie and tracking information) we provide to such third
+parties, alliance partners, or vendors are protected by confidentiality agreements and such information is to be used solely for completing
+the specific project, and in compliance with the applicable regulations.","third party for market research,  Android ID",abstract,abstract,,no violation
+88,in.redbus.android,com.crashlytics.android.Crashlytics.setUserIdentifier,757601f43fe6cab0,,Android ID,,,,,,
+89,com.doubleugames.DoubleUCasino,com.appsflyer.AppsFlyerLib.setAndroidIdData,757601f43fe6cab0,,Android ID,"WHAT WE COLLECT
+No term about Android ID
+We may use and process your Personal Information for one of the following purposes:
+ to use in an anonymized and aggregated way in order to perform statistical analysis
+
+We will not use your Personal Information for any other purpose than the purpose for which the data is originally collected.
+To operate our business and to enhance your gaming experience, we may use your information in the following ways:
+To create reports, analyses or similar for the purpose of research and business intelligence and be able to track potential problems, behaviour and trends","statistical analysis, anonymized and aggregated",abstract,abstract,,abstract
+90,com.octro.rummy,com.appsflyer.AppsFlyerLib.setCustomerUserId,757601f43fe6cab0,,android_id,"we collect some personal information to allow us to provide you the service, fulfill your requirement and
+provide you the customer support. This information may include …. your device information
+
+Only Octro has access to any such information. We will not give or sell your private information to any other company for any purpose without your written consent.","device information, not give or sell your private information to any other company for any purpose without your written consent.",violation,violation,violation,violation
+91,com.voxy.news,com.crashlytics.android.Crashlytics.setUserEmail,utsaresearch2018@gmail.com,,user email,"2. Types of Information We Collect
+We may collect personal information from you including, without limitation, non-public information about you that helps Voxy identify you, such as first and last name, birth date, email address
+
+8. Information Sharing with Third Parties
+Voxy may disclose the information it collects about you: (i) to third parties to provide analytics for advertising purposes or to confirm or update information provided by you; (ii) to suppliers, vendors and others who help Voxy provide services to you","email address, third-party",abstract,abstract,abstract,no violation
+92,ru.mamba.client,com.appsflyer.AppsFlyerLib.setAndroidIdData,757601f43fe6cab0,,Android ID,"Third-Party Service Providers: We employ other companies and individuals to perform functions on our behalf. Examples include providing
+applications, sending postal mail and e- mail, analyzing data, providing marketing assistance, processing credit card payments, and providing customer service. They have access to personal information needed to perform their functions, but may not use it for other purposes.","Third-Party Service Providers, analyzing data, personal information",abstract,abstract,,abstract
+93,com.godgame.bigtwo.android,com.appsflyer.AppsFlyerLib.setAndroidIdData,757601f43fe6cab0,,Android ID,,,not in english,,,not in english
+94,com.privacystar.android,com.crashlytics.android.Crashlytics.setUserIdentifier,757601f43fe6cab0,,android_id,There are also times when it may be appropriate for First Orion to make certain personal information about you available to companies that First Orion has a relationship with or that perform work for First Orion to provide Website and App function on our behalf.,"personal information, provide Website and App function on our behalf.",abstract,abstract,,abstract
+95,com.movile.playkids,com.appsflyer.AppsFlyerLib.setAndroidIdData,757601f43fe6cab0,,Android ID,"We may automatically track and collect the following categories of
+information when you visit our Apps or use our Subscription Service:
+(1) IP address; (2) Device ID
+
+
+We may share your personal information and data traffic with our partners who assist us through the development of essential services involved in the operations of the Apps and Subscription Services
+● Analytics (Google Analytics, Flurry)","Analytics (Google Analytics, Flurry), Device ID",abstract,abstract,,no violation
+96,com.chbreeze.jikbang4a,com.tune.Tune.setAndroidId,757601f43fe6cab0,,android_id,,,not in english,,,not in english
+96,com.chbreeze.jikbang4a,com.tune.Tune.setAndroidId,757601f43fe6cab0,,Android ID,,,,,,
+97,com.animoto.android.videoslideshow,com.crashlytics.android.Crashlytics.setUserEmail,utsaresearch2018@gmail.com,,user email,"We may collect the following personal information from you:
+Contact Information, such as name and email address
+
+Information Sharing
+Providing information related to site security, maintenance, performance, and error tracking
+
+We may receive information about you from other sources, such as third parties from whom we obtain data,
+and combine this data with information we already have about you.","error tracking, email address",abstract,abstract,abstract,no violation
+98,com.everycircuit.free,com.crashlytics.android.Crashlytics.setUserName,utsaresearch,,user name,"Information collection and use
+Personal Information includes, but is not limited to email address
+
+Information sharing and disclosure
+Payment and service providers. We may employ third parties to facilitate our Service, to provide the Service on our behalf, to perform
+services such as maintenance, database management, analytics and improvement of the features offered by our Service as well as to
+assist us in analyzing how our Service is used. These third parties may have access to your Personal Information only to perform these
+tasks on our behalf and are obligated not to disclose or use it for any other purpose.","maintenance, Personal Information",abstract,abstract,,abstract
+99,com.ember.nationzSD,com.appsflyer.AppsFlyerLib.setAndroidIdData,757601f43fe6cab0,,Android ID,"IInfforrmattiion Recceiived Thrrough Yourr Wiirrellessss Deviicce
+unique device identifier
+
+We will only share your information (including personal data) with the third parties listed on Exhibit A (as updated from time to time) or under the following circumstances:
+AppsFlyer","AppsFlyer, unique device identifier",no violation,no violation,,no violation
+100,com.classdojo.android,com.crashlytics.android.Crashlytics.setUserIdentifier,"{userId: , deviceId: 757601f43fe6cab0}",,variant_Android ID,"Personal Data We Collect
+Mobile device ID
+More specifically, this information collected from non-students is used to:
+ Provide and improve the Service and ClassDojo Website, for example by developing new products and features","Provide and improve the Service, Mobile device ID",abstract,abstract,,no violation
+101,com.hi5.app,com.crashlytics.android.Crashlytics.setUserName,utsaresearch2018@gmail.com,,user email,"III. Information We Collect
+Email Address
+we use and disclose your information in the following ways:
+Bug fixes and product improvement. To find and fix technology
+problems. We send data to companies we do not own in order to
+analyze bugs in our websites and apps so that we can keep them
+running smoothly.","Bug fixes, email address",abstract,abstract,abstract,no violation
+102,vivino.web.app,com.google.firebase.analytics.FirebaseAnalytics.setUserProperty,vivino_email,utsaresearch2018@gmail.com,user email,"We mainly collect the personal data that you submit to us, including your contact informa""on, reviews and purchase history. including email
+
+Besides our own cookies, we use cookies from third parties, e.g. from suppliers of advertisements and analytic tools Google
+
+Personal data about our users is an essential part of our business. We only share your personal data as described below apart from when we share it with a third-party vendor.","analytic tools, Google",no violation,no violation,,no violation
+103,com.lulo.scrabble.classicwords,com.crashlytics.android.Crashlytics.setUserIdentifier,757601f43fe6cab0,,Android ID,"Crash reporting:
+An App may use a third-party service (Crashlytics) to collect reports of crashes and other technical
+issues. This crash reporting service automatically collects certain information that does not personally
+identify the user of the App. This information includes, but is not limited to, device state information,
+unique device identifiers, device hardware and OS information, and information relating to how our
+application functions.","Unique device identifier, Crashlytics",no violation,no violation,,no violation
+104,com.stitcher.app,com.crashlytics.android.Crashlytics.setUserEmail,utsaresearch2018@gmail.com,,user email,"""Personal Information"" refers to information that tells us specifically who you are, such as your name, phone
+number, email, postal address, and possibly information relating to certain support or customer service issues. In many cases, we need this information to provide to you many of the Services that you may have requested. We use this Personal Information to manage and provide our Services, monitor user activity, and otherwise to improve our Services.
+
+We do not disclose Personal Information to third parties, except when one or more of the following
+conditions is true:
+The disclosure is to outside businesses to perform certain services for us, such as maintaining our Services, providing marketing assistance, and data analysis.","maintaining our Services, email",abstract,abstract,abstract,no violation
+105,com.hostelworld.app,com.tune.Tune.setAndroidId,757601f43fe6cab0,,android_id,"Device Details - We automatically collect details about the device you are using, including its IP address, its device ID, the browser you are using, and the operating system that the device uses.
+
+As part of our online advertising programmes we may share your personal data with third parties, who will combine it with data that they hold about you in order to tailor adverts that appear on third-party websites (which may be our own adverts, or adverts we serve on behalf of third parties). Where this data is shared you are not directly identifiable from the information itself, as we use technologies that use non-personally identifiable codes and tags.","not directly identifiable,  non-personally identifiable",violation,violation,violation,violation
+106,jp.co.mediaactive.ghostcalldx,com.appsflyer.AppsFlyerLib.setAndroidIdData,757601f43fe6cab0,,Android ID,,,not in english,,,not in english
+106,jp.co.mediaactive.ghostcalldx,com.google.firebase.analytics.FirebaseAnalytics.setUserId,757601f43fe6cab0,,Android ID,,,,,,
+107,jp.co.atm.murderroom.android,com.flurry.android.FlurryAgent.setUserId,757601f43fe6cab002:00:00:00:00:00,,variant_Android ID,,not in google play website,not availble,,,not availble
+108,m.sanook.com,com.appsflyer.AppsFlyerLib.setAndroidIdData,757601f43fe6cab0,,Android ID,,no term about third-party,violation,violation,violation,violation
+109,com.estmob.android.sendanywhere,com.crashlytics.android.Crashlytics.setUserName,utsaresearch2018@gmail.com,,user email,"We collect several different types of information for various purposes to provide and improve our Service to you.Registration information: Information you provide to us when you register for an account.
+
+These third parties have access to your Personal Data only to perform these tasks on our behalf and are obligated not to disclose or use it for any other
+purpose.
+
+Crash report
+We may use third-party Service Providers to monitor and report a crash in our app for technical and operational support and maintain service.",,abstract,abstract,,abstract
+110,com.shopclues,com.appsflyer.AppsFlyerLib.setAndroidIdData,757601f43fe6cab0,,Android ID,c. ShopClues.com may also aggregate (gather up data across all user accounts) personally identifiable information and disclose such information in a non-personally identifiable manner to advertisers and other third parties for other marketing and promotional purposes.,non-personally identifiable manner,violation,violation,violation,violation
+111,com.hapogames.FreeCell,com.flurry.android.FlurryAgent.setUserId,757601f43fe6cab0,,Android ID,"Smoote Mobile may use and disclose to Smoote Mobile’s partners and contractors the collected non-personal data for purposes of analyzing usage of the Services, advertisement serving, managing and providing the Services and to further develop the Services and other Smoote Mobile services and products.
+
+Smoote Mobile may use collected personal data for purposes of analyzing usage of the Services, providing customer and technical support, managing and providing Services (including managing advertisement serving) and to further develop the Services and other Smoote Mobile services and products. Smoote Mobile may combine non-personal data with personal data.",personal data for purposes of analyzing usage of the Services,abstract,abstract,,abstract
+111,com.hapogames.FreeCell,com.google.firebase.analytics.FirebaseAnalytics.setUserId,757601f43fe6cab0,,Android ID,,,,,,
+112,com.ember.bingoSD,com.appsflyer.AppsFlyerLib.setAndroidIdData,757601f43fe6cab0,,android_id,"unique device identifier
+
+We will only share your information (including personal data) with the third parties listed on Exhibit A (as updated from time to time) or under the following circumstances:
+AppsFlye","AppsFlyer, unique device identifier",no violation,no violation,,no violation
+113,com.snipsnap.snipsnapapp,com.mixpanel.android.mpmetrics.MixpanelAPI.identify,utsaresearch2018@gmail.com,,user email,"We collect the following types of
+Personal Information:
+Contact Information that allows us to communicate with you, such as your
+name, postal addresses, email addresses
+
+SnipSnap App LLC uses Personal Information to: 
+Track redemption of coupons and perform other analytics;
+
+In many cases, the information we collect using cookies and other tools is used
+in non-identifiable ways, without any reference to Personal Information
+
+We may also disclose
+information about you that is not personally identifiable. For example, we may
+provide our merchants, business partners, or other third parties with reports
+that contain aggregated and statistical data about our users
+
+We use Google Analytics to help us understand how visitors interact with our
+website and to help improve our user experience.",no terms about share personal info to analytic tools,violation,violation,violation,violation
+114,com.bang.bangwithfriends,com.appsflyer.AppsFlyerLib.setAndroidIdData,757601f43fe6cab0,,Android ID,"Device Data: We collect and store data about the computer or mobile device you
+use to access our Services, including your mobile device's unique ID number (e.g.,
+IMEI, AD ID), your geographic location, the hardware model, operating system and
+version.
+
+We share the data we collect from you, including aggregated together with non-PII
+data, with third party service providers. This may include:
+Data analytics providers; and
+Marketing service providers",Data analytics providers;  mobile device's unique ID number,abstract,abstract,,no violation
+115,com.frograms.watcha,com.crashlytics.android.Crashlytics.setUserEmail,utsaresearch2018@gmail.com,,user email,"The Personal Information we and our service providers
+collect includes but is not limited to:
+- Your full name, email address
+
+3.6. Sharing and Provision of Personal Information -  The Company will not use your Personal Information beyond the scope specified in the Privacy Policy, or provide Personal Information to third parties (other persons or other institutions), except in cases consented to by you, or in any of the following situations: 
+To perform tasks on our behalf and to assist us in providing our Service;","service provider, full name, email address",abstract,abstract,,no violation
+115,com.frograms.watcha,com.crashlytics.android.Crashlytics.setUserName,UTSA Research,,user name,,,,,,
+116,com.godgame.texasholdem.android,com.appsflyer.AppsFlyerLib.setAndroidIdData,757601f43fe6cab0,,Android ID,,,not in english,,,not in english
+117,jp.co.ateam.android.lie,com.flurry.android.FlurryAgent.setUserId,757601f43fe6cab002:00:00:00:00:00,,variant_Android ID,,not in google play store,not available,,,not available
+118,com.kekanto.android,com.appsee.Appsee.setUserId,757601f43fe6cab0,,Android ID,,,not in english,,,not in english
+119,com.production.truspertips,com.crashlytics.android.Crashlytics.setUserName,UTSA Research,,user name,"Information collection:
+You provide us information about yourself, such as your name,
+
+Musely uses information we collect along with select partners (e.g. Facebook) to determine your interests
+in order to provide you with the Service, analyze how the Service is used, diagnose service or technical
+ problems","name, technical
+ problems",abstract,abstract,abstract,no violation
+120,app.staples,com.tune.Tune.setUserName,utsaresearch2018@gmail.com,,user email,"We collect personally identifiable and transactional information (purchase-related history) which you provide us directly, for example, in connection with a purchase, a promotion, or application for a membership program.
+
+How We Share Your Personal Information.
+We may share your Personal Information with other parties in the following
+instances: 
+To process transactions or provide services on our behalf, including but not limited to providers of product delivery services (for example UPS and FedEx) and website analytics (for example Google
+Analytics).","Analytics, personal information",abstract,abstract,,abstract
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
